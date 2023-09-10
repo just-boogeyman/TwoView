@@ -17,34 +17,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xLD-o1-S1r">
-                                <rect key="frame" x="16" y="464" width="382" height="382"/>
+                                <rect key="frame" x="16" y="465" width="382" height="381"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="xLD-o1-S1r" secondAttribute="height" multiplier="1:1" priority="250" id="V19-Wc-8JB"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTv-oc-0x2">
-                                <rect key="frame" x="16" y="64" width="382" height="384"/>
+                                <rect key="frame" x="16" y="64" width="382" height="381"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FTv-oc-0x2" secondAttribute="height" multiplier="1:1" constant="1" id="d52-0m-K2K"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="FTv-oc-0x2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="DvM-CN-MoC"/>
-                            <constraint firstItem="FTv-oc-0x2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Q8y-w0-T8K"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xLD-o1-S1r" secondAttribute="trailing" constant="16" id="S4l-K6-EFy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FTv-oc-0x2" secondAttribute="trailing" constant="16" id="WYg-Rh-p0Q"/>
-                            <constraint firstItem="xLD-o1-S1r" firstAttribute="top" secondItem="FTv-oc-0x2" secondAttribute="bottom" constant="16" id="i7C-ES-t5c"/>
-                            <constraint firstItem="xLD-o1-S1r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qIg-h5-el4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xLD-o1-S1r" secondAttribute="bottom" constant="16" id="ytC-83-zYF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xLD-o1-S1r" secondAttribute="bottom" constant="16" id="CPH-1g-kf7"/>
+                            <constraint firstItem="xLD-o1-S1r" firstAttribute="height" secondItem="FTv-oc-0x2" secondAttribute="height" id="cWj-aF-izQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xLD-o1-S1r" secondAttribute="trailing" constant="16" id="hJW-Z2-mb3"/>
+                            <constraint firstItem="FTv-oc-0x2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="o6G-Vk-SRF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FTv-oc-0x2" secondAttribute="trailing" constant="16" id="r1z-2g-ig0"/>
+                            <constraint firstItem="xLD-o1-S1r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sEh-XW-Vxz"/>
+                            <constraint firstItem="FTv-oc-0x2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uRe-9B-DBS"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="4"/>
+            <point key="canvasLocation" x="87" y="-13"/>
         </scene>
     </scenes>
     <resources>
