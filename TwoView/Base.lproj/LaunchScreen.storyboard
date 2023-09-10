@@ -27,7 +27,6 @@
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
                             <constraint firstItem="PBd-Ah-TIR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PGM-h8-ErC"/>
-                            <constraint firstItem="PBd-Ah-TIR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V6Z-aS-RdH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PBd-Ah-TIR" secondAttribute="trailing" constant="16" id="c0s-yQ-Nz6"/>
                             <constraint firstItem="PBd-Ah-TIR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="z4Q-Bk-r1e"/>
                         </constraints>
